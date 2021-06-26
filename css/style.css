@@ -1,0 +1,563 @@
+body {
+    font-size: 16px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(216, 216, 219);
+    padding: 0px 40px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    font-size: 20px;
+    position: relative;
+    top: 75px;
+
+}
+
+.right {
+    float: right;
+    font-size: 20px;
+    position: relative;
+    top: 75px;
+
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 75%;
+    background-color: rgb(248, 248, 248);
+    margin-right: 45px;
+    padding-top: 32px;
+    padding-bottom: 38px;
+}
+
+.total-exam {
+    display: flex;
+}
+
+.full-marked {
+    display: flex;
+}
+
+.assessment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    background-color: rgb(248, 248, 248);
+    position: relative;
+    top: 90px;
+}
+
+.assessment h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.assessment .black {
+    font-size: 35px;
+    position: relative;
+    bottom: 71px;
+}
+
+.assessment img {
+    position: relative;
+    top: 100px;
+}
+
+.assessment span {
+    color: lightgray;
+    font-size: 16px;
+}
+
+.border-radious {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(223, 222, 222);
+    justify-content: center;
+    border-radius: 100px;
+    margin-right: 36px;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon h4 {
+    text-align: left;
+}
+
+.icon img {
+    height: 36%;
+    width: 55%;
+    margin-top: 30px;
+}
+
+.border-radious h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 255, 0.849);
+    text-align: center;
+}
+
+.border-radious .green {
+    color: rgba(0, 128, 0, 0.719);
+}
+
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 72.6%;
+    background-color: rgb(248, 248, 248);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    bottom: 87px;
+}
+
+.scand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.not-scand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-radious .red {
+    color: red;
+}
+
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.button-section h3 {
+    float: left;
+}
+
+.button-section button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 13%;
+    height: inherit;
+    float: right;
+}
+
+.button-section button:hover {
+    background-color: rgb(102, 102, 255);
+}   
+
+
+
+button img {
+    width: 25px;
+}
+
+button h5 {
+    font-size: 16px;
+}
+
+.table-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.table-content {
+    border-collapse: collapse;
+    margin: 35px 0;
+    font-size: 0.9em;
+    width: 1400px;
+    line-height: 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 0 0;
+}
+
+.table-content thead tr {
+    background-color: rgb(221, 218, 218);
+    font-size: 1em;
+    text-align: center;
+}
+
+.table-content tr td {
+    background-color: rgb(250, 245, 245);
+    border-bottom: 10px solid rgb(221, 218, 218);
+}
+
+
+
+/* MEDIA QURERY SECTION */
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .second-container {
+        width: 71.6%;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        position: relative;
+        bottom: 36px;
+    }
+
+    .assessment img {
+        width: 84%;
+        position: relative;
+        top: 84px;
+    }
+
+    .assessment .black {
+        font-size: 20px;
+        position: relative;
+        bottom: 46px;
+    }
+
+    .button-section h3 {
+        font-size: 16px;
+    }
+
+    button h5 {
+        font-size: 11px;
+    }
+
+    button img {
+        width: 18px;
+    }
+
+
+
+
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .overview {
+        padding-bottom: 0%;
+        margin-right: 33px;
+    }
+
+    .border-radious h1 {
+        font-size: 35px;
+    }
+
+    .icon h4 {
+        font-size: 10px;
+    }
+
+    .second-container {
+        width: 71.6%;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        position: relative;
+        bottom: 36px;
+    }
+
+    .right {
+        float: right;
+        font-size: 16px;
+        position: relative;
+        top: 56px;
+    }
+
+    .left {
+        float: left;
+        font-size: 16px;
+        position: relative;
+        top: 57px;
+    }
+
+    .assessment {
+        position: relative;
+        top: 46px;
+    }
+
+    .assessment img {
+        width: 84%;
+        position: relative;
+        top: 62px;
+    }
+
+    .assessment .black {
+        font-size: 13px;
+        position: relative;
+        bottom: 37px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .button-section button {
+        width: 16%;
+    }
+
+
+    .button-section h3 {
+        font-size: 15px;
+    }
+
+    button h5 {
+        font-size: 10px;
+    }
+
+    button img {
+        width: 17px;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px ) {
+
+    .overview {
+        padding-bottom: 0%;
+        margin-right: 33px;
+        padding-top: 4px;
+    }
+
+    .border-radious h1 {
+        font-size: 30px;
+    }
+
+    .icon h4 {
+        font-size: 10px;
+    }
+
+    .second-container {
+        width: 69.6%;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        position: relative;
+        bottom: 36px;
+    }
+
+    .right {
+        float: right;
+        font-size: 15px;
+        position: relative;
+        top: 29px;
+    }
+
+    .left {
+        float: left;
+        font-size: 15px;
+        position: relative;
+        top: 27px;
+    }
+
+    .assessment {
+        position: relative;
+        top: 46px;
+    }
+
+    .assessment img {
+        width: 87%;
+        position: relative;
+        top: 42px;
+    }
+
+    .assessment .black {
+        font-size: 13px;
+        position: relative;
+        bottom: 37px;
+    }
+
+    h4 {
+        font-size: 11px;
+    }
+
+    .button-section button {
+        width: 17%;
+    }
+
+    .button-section h3 {
+        font-size: 12px;
+    }
+
+    button h5 {
+        font-size: 10px;
+    }
+
+    button img {
+        width: 12px;
+    }
+
+    .table-content thead tr {
+        font-size: 12px;
+
+    }
+
+    .table-content {
+        font-size: 12px;
+    }
+
+    td img {
+        width: 24%;
+    }
+
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+
+    body {
+        padding: 0;
+    }
+
+    .overview {
+        padding-bottom: 0%;
+        margin-right: 21px;
+        padding-top: 0px;
+        width: 100%;
+    }
+
+    .border-radious {
+        margin-right: 6px;
+    }
+
+    .border-radious h1 {
+        font-size: 25px;
+    }
+
+    .icon img {
+        height: 28%;
+        width: 34%;
+        margin-top: 22px;
+    }
+
+    .icon h4 {
+        font-size: 10px;
+    }
+
+    .second-container {
+        width: 69.6%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        position: relative;
+        bottom: 24px;
+    }
+
+    .right {
+        float: right;
+        font-size: 10px;
+        position: relative;
+        top: 36px;
+    }
+
+    .left {
+        float: left;
+        font-size: 10px;
+        position: relative;
+        top: 36px;
+    }
+
+    .assessment {
+        position: relative;
+        top: 46px;
+        width: 35%;
+    }
+
+    .assessment img {
+        width: 87%;
+        position: relative;
+        top: 42px;
+    }
+
+    .assessment .black {
+        font-size: 12px;
+        position: relative;
+        bottom: 23px;
+    }
+
+    .assessment span {
+        font-size: 8px;
+    }
+
+    h4 {
+        font-size: 8px;
+    }
+
+    .button-section button {
+        width: 22%;
+    }
+
+    .button-section h3 {
+        font-size: 12px;
+    }
+
+    button h5 {
+        display: none;
+    }
+
+    button img {
+        width: 32px;
+    }
+
+    .table-content thead tr {
+        font-size: 9px;
+
+    }
+
+    .table-content {
+        font-size: 9px;
+    }
+
+    td img {
+        width: 20%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

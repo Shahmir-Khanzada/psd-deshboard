@@ -1,218 +1,263 @@
 body {
-    font-size: 16px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(216, 216, 219);
-    padding: 0px 40px;
+    background-color: #f5f7fb; 
+    margin: 0;
+    font-family: montserrat;
+    font-size: 15px;
+    color: #1a213a;
 }
 
 .main-container {
+    width: 1272px;
+    margin: 38px auto 0px;   
+}
+
+.statistics {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.left {
-    float: left;
-    font-size: 20px;
-    position: relative;
-    top: 75px;
-
-}
-
-.right {
-    float: right;
-    font-size: 20px;
-    position: relative;
-    top: 75px;
-
+.box {
+    background-color: white;
+    box-shadow: 1px 2px 13px -1px rgba(0, 0, 0, 0.055);
+    height: 336px;
+    border-radius: 7px;
+    border: 1px solid #d6dbe2;
 }
 
 .overview {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 75%;
-    background-color: rgb(248, 248, 248);
-    margin-right: 45px;
-    padding-top: 32px;
-    padding-bottom: 38px;
-}
-
-.total-exam {
-    display: flex;
-}
-
-.full-marked {
+    flex-wrap: wrap;
+    width: 936px;
     display: flex;
 }
 
 .assessment {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 25%;
-    background-color: rgb(248, 248, 248);
-    position: relative;
-    top: 90px;
+    width: 292px;
 }
 
-.assessment h2 {
+.total-exam {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    width: 466px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
 
-.assessment .black {
-    font-size: 35px;
-    position: relative;
-    bottom: 71px;
-}
-
-.assessment img {
-    position: relative;
-    top: 100px;
-}
-
-.assessment span {
-    color: lightgray;
-    font-size: 16px;
-}
-
-.border-radious {
+.fully-marked {
     display: flex;
-    flex-direction: row;
-    background-color: rgb(223, 222, 222);
+    align-items: center;
     justify-content: center;
-    border-radius: 100px;
-    margin-right: 36px;
-    width: 100%;
+    width: 466px;
+    height: 213px;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
 
-.icon {
-    display: flex;
-    flex-direction: column;
-}
-
-.icon h4 {
-    text-align: left;
-}
-
-.icon img {
-    height: 36%;
-    width: 55%;
-    margin-top: 30px;
-}
-
-.border-radious h1 {
-    font-size: 50px;
-    color: rgba(0, 0, 255, 0.849);
-    text-align: center;
-}
-
-.border-radious .green {
-    color: rgba(0, 128, 0, 0.719);
-}
-
-.second-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 72.6%;
-    background-color: rgb(248, 248, 248);
-    padding-top: 24px;
-    padding-bottom: 24px;
-    position: relative;
-    bottom: 87px;
-}
 
 .scand {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    justify-content: center;
+    width: 466px;
+    height: 122px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
 
 .not-scand {
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    width: 466px;
+    height: 122px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    background-color: #ffffff;
 }
 
-.border-radious .red {
-    color: red;
+.border-radious {
+    width: 154px;
+    height: 155px;
+    background-color: #e6ebf0;
+    border-radius: 82px;
+    margin-right: 29px;
 }
 
+.border-radious h2 {
+    text-align: center;
+    font-size: 50px;
+}
 
-.button-section {
+.border-radious .blue {
+    color: #4d84fe;
+}
+
+.border-radious .green {
+    color: #2ecc71;
+}
+
+.icon img {
+    width: 36px;
+    height: 45px;
+}
+
+.bottom-radious {
+    width: 80px;
+    height: 80px;
+    background-color: #e6ebf0;
+    border-radius: 82px;
+    margin-right: 29px;
+}
+
+.bottom-radious h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.bottom-radious .green {
+    color: #2ecc71;
+}
+
+.bottom-radious .brown {
+    color: #e74c3c;
+}
+
+.tabs {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    width: 1272px;
+    height: 122px;
+
 }
 
-.button-section h3 {
-    float: left;
-}
-
-.button-section button {
+.tabs .text-box {
     display: flex;
     align-items: center;
+    width: 436px;
+    background-color: #f5f7fb;
+}
+
+.text-box h3 {
+    font-size: 22px;
+}
+
+.button-box {
+    display: flex;
     justify-content: space-around;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    width: 13%;
-    height: inherit;
-    float: right;
+    align-items: center;
+    width: 835px;
+    background-color: #f5f7fb
 }
 
-.button-section button:hover {
-    background-color: rgb(102, 102, 255);
-}   
-
-
-
-button img {
-    width: 25px;
+.button-box button {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    border: 1px solid #bec6d1;
+    border-radius: 4px;
+    background-color: #f5f3f3;
 }
 
-button h5 {
-    font-size: 16px;
+.button-box img {
+    width: 23px;
+    height: 23px;
+    margin-right: 9px;   
+}
+
+.button-box .update {
+    width: 225px;
+}
+
+.button-box .push {
+    width: 164px;
+}
+
+.button-box .return {
+    width: 192px;
+}
+
+.button-box .lock {
+    width: 214px;
+}
+
+.button-box button:hover {
+    background-color: #4d84fe;
+    color: white;
 }
 
 .table-section {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    width: 1272px;
+    height: 456px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #e5e6e9;
+    margin-bottom: 54px;
 }
-
 
 .table-content {
     border-collapse: collapse;
-    margin: 35px 0;
-    font-size: 0.9em;
-    width: 1400px;
-    line-height: 60px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+    line-height: 67px;
+    border-radius: 4px;    
+    margin-top: 9px;
+    border: 1px solid #dee9f1;
+    box-shadow: 1px 2px 13px -1px rgba(0, 0, 0, 0.055);
 }
 
-.table-content thead tr {
-    background-color: rgb(221, 218, 218);
-    font-size: 1em;
-    text-align: center;
+thead {
+    border: 1px solid #bec8d4;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+tbody {
+    border: 2px 2px solid #d8e1e7;
+    border-radius: 4px;
+    font-size: 18px;
+    
+}
+
+.table-content thead tr th {
+    background-color: #dde3ea;
 }
 
 .table-content tr td {
-    background-color: rgb(250, 245, 245);
-    border-bottom: 10px solid rgb(221, 218, 218);
+    background-color: #ffffff;
+    border-top: 10px solid #f1f3f7;
+    border-radius: 4px;
+    
 }
+
+tbody img {
+    width: 35px;
+    height: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -225,339 +270,20 @@ button h5 {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-    .second-container {
-        width: 71.6%;
-        padding-top: 7px;
-        padding-bottom: 8px;
-        position: relative;
-        bottom: 36px;
-    }
-
-    .assessment img {
-        width: 84%;
-        position: relative;
-        top: 84px;
-    }
-
-    .assessment .black {
-        font-size: 20px;
-        position: relative;
-        bottom: 46px;
-    }
-
-    .button-section h3 {
-        font-size: 16px;
-    }
-
-    button h5 {
-        font-size: 11px;
-    }
-
-    button img {
-        width: 18px;
-    }
-
-
-
-
-
-
-}
+  
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-    .overview {
-        padding-bottom: 0%;
-        margin-right: 33px;
-    }
-
-    .border-radious h1 {
-        font-size: 35px;
-    }
-
-    .icon h4 {
-        font-size: 10px;
-    }
-
-    .second-container {
-        width: 71.6%;
-        padding-top: 7px;
-        padding-bottom: 8px;
-        position: relative;
-        bottom: 36px;
-    }
-
-    .right {
-        float: right;
-        font-size: 16px;
-        position: relative;
-        top: 56px;
-    }
-
-    .left {
-        float: left;
-        font-size: 16px;
-        position: relative;
-        top: 57px;
-    }
-
-    .assessment {
-        position: relative;
-        top: 46px;
-    }
-
-    .assessment img {
-        width: 84%;
-        position: relative;
-        top: 62px;
-    }
-
-    .assessment .black {
-        font-size: 13px;
-        position: relative;
-        bottom: 37px;
-    }
-
-    h4 {
-        font-size: 12px;
-    }
-
-    .button-section button {
-        width: 16%;
-    }
-
-
-    .button-section h3 {
-        font-size: 15px;
-    }
-
-    button h5 {
-        font-size: 10px;
-    }
-
-    button img {
-        width: 17px;
-    }
-
-
-}
+  
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767px ) {
 
-    .overview {
-        padding-bottom: 0%;
-        margin-right: 33px;
-        padding-top: 4px;
-    }
-
-    .border-radious h1 {
-        font-size: 30px;
-    }
-
-    .icon h4 {
-        font-size: 10px;
-    }
-
-    .second-container {
-        width: 69.6%;
-        padding-top: 7px;
-        padding-bottom: 8px;
-        position: relative;
-        bottom: 36px;
-    }
-
-    .right {
-        float: right;
-        font-size: 15px;
-        position: relative;
-        top: 29px;
-    }
-
-    .left {
-        float: left;
-        font-size: 15px;
-        position: relative;
-        top: 27px;
-    }
-
-    .assessment {
-        position: relative;
-        top: 46px;
-    }
-
-    .assessment img {
-        width: 87%;
-        position: relative;
-        top: 42px;
-    }
-
-    .assessment .black {
-        font-size: 13px;
-        position: relative;
-        bottom: 37px;
-    }
-
-    h4 {
-        font-size: 11px;
-    }
-
-    .button-section button {
-        width: 17%;
-    }
-
-    .button-section h3 {
-        font-size: 12px;
-    }
-
-    button h5 {
-        font-size: 10px;
-    }
-
-    button img {
-        width: 12px;
-    }
-
-    .table-content thead tr {
-        font-size: 12px;
-
-    }
-
-    .table-content {
-        font-size: 12px;
-    }
-
-    td img {
-        width: 24%;
-    }
-
-
-}
+    
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575px) {
 
-    body {
-        padding: 0;
-    }
-
-    .overview {
-        padding-bottom: 0%;
-        margin-right: 21px;
-        padding-top: 0px;
-        width: 100%;
-    }
-
-    .border-radious {
-        margin-right: 6px;
-    }
-
-    .border-radious h1 {
-        font-size: 25px;
-    }
-
-    .icon img {
-        height: 28%;
-        width: 34%;
-        margin-top: 22px;
-    }
-
-    .icon h4 {
-        font-size: 10px;
-    }
-
-    .second-container {
-        width: 69.6%;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        position: relative;
-        bottom: 24px;
-    }
-
-    .right {
-        float: right;
-        font-size: 10px;
-        position: relative;
-        top: 36px;
-    }
-
-    .left {
-        float: left;
-        font-size: 10px;
-        position: relative;
-        top: 36px;
-    }
-
-    .assessment {
-        position: relative;
-        top: 46px;
-        width: 35%;
-    }
-
-    .assessment img {
-        width: 87%;
-        position: relative;
-        top: 42px;
-    }
-
-    .assessment .black {
-        font-size: 12px;
-        position: relative;
-        bottom: 23px;
-    }
-
-    .assessment span {
-        font-size: 8px;
-    }
-
-    h4 {
-        font-size: 8px;
-    }
-
-    .button-section button {
-        width: 22%;
-    }
-
-    .button-section h3 {
-        font-size: 12px;
-    }
-
-    button h5 {
-        display: none;
-    }
-
-    button img {
-        width: 32px;
-    }
-
-    .table-content thead tr {
-        font-size: 9px;
-
-    }
-
-    .table-content {
-        font-size: 9px;
-    }
-
-    td img {
-        width: 20%;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+    

@@ -515,19 +515,19 @@ tbody img {
 @media only screen and (max-width: 575px) {
 
     .main-container {
-        width: 379px;
+        width: 354px;
     }
 
     .overview {
-        width: 204px;
+        width: 194px;
     }
 
     .total-exam {
-        width: 100px;
+        width: 95px;
     }
 
     .fully-marked {
-        width: 100px;
+        width: 95px;
     }
 
     .icon h4 {
@@ -540,11 +540,11 @@ tbody img {
     }
 
     .scand {
-        width: 100px;
+        width: 95px;
     }
 
     .not-scand {
-        width: 100px;
+        width: 95px;
     }
 
     .assesment {
@@ -592,8 +592,8 @@ tbody img {
     }
 
     .text-box h3 {
-        font-size: 11px;
-        margin-right: 11px;
+        font-size: 10px;
+        margin-right: 5px;
     }
 
     .button-box {
@@ -606,9 +606,9 @@ tbody img {
     }
 
     .button-box .button-primary {
-        padding: 3px 1px;
-        font-size: 10px;
-        margin-right: 5px;
+        padding: 4px 2px;
+        font-size: 9px;
+        margin-right: 4px;
     }
 
     .button-box img {
@@ -617,7 +617,7 @@ tbody img {
     }
 
     .table-section {
-        width: 380px;
+        width: 348px;
     }
 
     thead {

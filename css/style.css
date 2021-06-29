@@ -7,7 +7,7 @@ body {
 }
 
 .main-container {
-    width: 1272px;
+    max-width: 1272px;
     margin: 38px auto 0px;   
 }
 
@@ -28,11 +28,11 @@ body {
 .overview {
     display: flex;
     flex-wrap: wrap;
-    width: 936px;
-    display: flex;
+    width: 935px;
+    
 }
 
-.assessment {
+.assesment {
     width: 292px;
 }
 
@@ -72,7 +72,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 466px;
+    width: 465px;
     height: 122px;
     border: 1px solid lightgrey;
     border-radius: 6px;
@@ -146,7 +146,7 @@ body {
 
 .button-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 835px;
     background-color: #f5f7fb
@@ -167,21 +167,11 @@ body {
     margin-right: 9px;   
 }
 
-.button-box .update {
-    width: 225px;
+.button-box .button-primary {
+    padding: 8px 22px;
 }
 
-.button-box .push {
-    width: 164px;
-}
 
-.button-box .return {
-    width: 192px;
-}
-
-.button-box .lock {
-    width: 214px;
-}
 
 .button-box button:hover {
     background-color: #4d84fe;
@@ -239,51 +229,407 @@ tbody img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QURERY SECTION */
-
-
 
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
+    .main-container {
+        width: 940px;
+        margin: 38px auto 0px;
+    }
+
+    .overview {
+        width: 674px;
+    }
+
+    .total-exam {
+        width: 335px;
+    }
+
+    .fully-marked {
+        width: 335px;
+    }
+
+    .scand {
+        width: 335px;
+    }
+
+    .not-scand {
+        width: 335px;
+    }
+
+    .assessment-container {
+        width: 250px;
+    }
+
+    .overview-container h1 {
+        font-size: 16px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .assesment-container h1 {
+        font-size: 16px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .assesment {
+        width: 250px;
+    }
+
+    .tabs {
+        width: 940px;
+    }
+
+    .text-box h3 {
+        font-size: 16px;
+    }
+
+    .tabs .text-box {
+        width: 300px;
+    }
+
+    .button-box .update {
+        width: auto;
+    }
+
+    .button-box .push {
+        width: auto;
+    }
+
+    .button-box .return {
+        width: auto;
+    }
+
+    .button-box .lock {
+        width: auto;
+    }
+
+    .button-box {
+        width: 890px;
+    }
+
+    .table-section {
+        width: 940px;
+    }
+}
   
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
+    .main-container {
+        width: 721px;
+    }
+
+    .overview {
+        width: 504px;
+    }
+
+    .total-exam {
+        width: 250px;
+    }
+
+    .fully-marked {
+        width: 250px;
+    }
+
+    .scand {
+        width: 250px;
+    }
+
+    .not-scand {
+        width: 250px;
+    }
+
+    .assesment {
+        width: 200px;
+    }
+
+    .border-radious {
+        width: 115px;
+        height: 120px;
+    }
+
+    .border-radious h2 {
+        font-size: 39px;
+    }
+
+    .overview-container h1 {
+        font-size: 14px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .assesment-container h1 {
+        font-size: 14px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .tabs {
+        width: 721px;
+    }
+
+    .text-box h3 {
+        font-size: 16px;
+    }
+
+    .button-box .button-primary {
+        padding: 8px 25px;
+    }
+
+    .table-section {
+        width: 720px;
+    }
+
+    thead {
+        font-size: 16px;
+    }
+
+    tbody {
+        font-size: 16px;
+    }
+
+    tbody img {
+        width: 23px;
+        height: 10px;
+    }
+}
   
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767px ) {
 
+    .main-container {
+        width: 544px;
+    }
+
+    .overview {
+        width: 344px;
+    }
+
+    .total-exam {
+        width: 170px;
+    }
+
+    .fully-marked {
+        width: 170px;
+    }
+
+    .icon h4 {
+        font-size: 12px;
+    }
+
+    .icon img {
+        width: 26px;
+        height: 30px;
+    }
+
+    .scand {
+        width: 170px;
+    }
+
+    .not-scand {
+        width: 170px;
+    }
+
+    .assesment {
+        width: 184px;
+    }
+
+    .border-radious {
+        width: 80px;
+        height: 80px;
+        margin-right: 5px;
+    }
+
+    .border-radious h2 {
+        font-size: 28px;
+    }
+
+    .overview-container h1 {
+        font-size: 14px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .assesment-container h1 {
+        font-size: 14px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .tabs {
+        width: 721px;
+    }
+
+    .tabs .text-box {
+        width: 170px;
+    }
+
+    .text-box h3 {
+        font-size: 13px;
+    }
+
+    .button-box {
+        width: 325px;
+    }
+
+    .button-box .button-primary {
+        padding: 5px 4px;
+        font-size: 10px;
+        margin-right: 12px;
+    }
+
+    .button-box img {
+        width: 18px;
+        height: 15px;
+    }
+
+    .table-section {
+        width: 540px;
+    }
+
+    thead {
+        font-size: 16px;
+    }
+
+    tbody {
+        font-size: 16px;
+    }
+
+    tbody img {
+        width: 23px;
+        height: 10px;
+    }
+}
     
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575px) {
 
-    
+    .main-container {
+        width: 379px;
+    }
+
+    .overview {
+        width: 204px;
+    }
+
+    .total-exam {
+        width: 100px;
+    }
+
+    .fully-marked {
+        width: 100px;
+    }
+
+    .icon h4 {
+        font-size: 8px;
+    }
+
+    .icon img {
+        width: 16px;
+        height: 18px;
+    }
+
+    .scand {
+        width: 100px;
+    }
+
+    .not-scand {
+        width: 100px;
+    }
+
+    .assesment {
+        width: 160px;
+    }
+
+    .border-radious {
+    width: 38px;
+    height: 38px;
+    margin-right: 3px;
+    }
+
+    .border-radious h2 {
+        font-size: 14px;
+    }
+
+    .bottom-radious {
+        width: 38px;
+        height: 38px;
+        margin-right: 5px;
+    }
+
+    .bottom-radious h2 {
+        font-size: 14px;
+    }
+
+    .overview-container h1 {
+        font-size: 14px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .assesment-container h1 {
+        font-size: 14px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .tabs {
+        width: 88px;
+    }
+
+    .tabs .text-box {
+        width: 135px;
+    }
+
+    .text-box h3 {
+        font-size: 11px;
+        margin-right: 11px;
+    }
+
+    .button-box {
+        width: 325px;
+    }
+
+
+    .button-box button {
+        height: 28px;
+    }
+
+    .button-box .button-primary {
+        padding: 3px 1px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .button-box img {
+        width: 18px;
+        height: 15px;
+    }
+
+    .table-section {
+        width: 380px;
+    }
+
+    thead {
+        font-size: 10px;
+    }
+
+    tbody {
+        font-size: 10px;
+    }
+
+    tbody img {
+        width: 21px;
+        height: 9px;
+    }
+}
